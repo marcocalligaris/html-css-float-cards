@@ -16,11 +16,32 @@ body{
 header{
     text-align: center;
     padding: 40px 0;
-    color: rgb(156, 33, 156);
+    color: rgb(229,49,112);
     font-size: 30px;
 }
 .team-intro{
     text-align: center;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    height: 120px;
+    line-height: 120px;
+    margin: 10px;
+    vertical-align: middle;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img{
+    height: 100%;
 }
